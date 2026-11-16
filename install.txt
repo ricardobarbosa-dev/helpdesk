@@ -1,0 +1,10 @@
+mkdir helpdesk && cd helpdesk (criando a pasta helpdesk e entrando na pasta)
+
+git init (iniciando o git)
+python -m venv .venv (criando o ambiente virtual)
+source .venv/Scripts/activate (ativando o ambiente virtual)
+
+pip install django djangorestframework (instalando o django e o djangorestframework)
+django-admin startproject config . (criando o projeto)
+python manage.py runserver (iniciando o servidor)
+
