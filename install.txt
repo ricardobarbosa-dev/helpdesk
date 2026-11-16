@@ -8,3 +8,12 @@ pip install django djangorestframework (instalando o django e o djangorestframew
 django-admin startproject config . (criando o projeto)
 python manage.py runserver (iniciando o servidor)
 
+# criamos o arquivo .gitignore para ignorar os arquivos que não precisam ser commitados
+.venv/
+__pycache__/
+db.sqlite3
+.env
+
+# comitando os arquivos para o github
+git add .
+git commit -m "chore: inicia o projeto Django"
